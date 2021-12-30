@@ -1,0 +1,20 @@
+{
+    "name": "arjs",
+    "version": "1.0.0",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "start": "node server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Jasmin Boehm",
+    "licence": "ISC",
+    "dependencies": {
+        "af-request-validator": "^1.0.3",
+        "aframe": "^1.2.0",
+        "express": "^4.17.2",
+        "pug": "^3.0.2"
+    }
+}
